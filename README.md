@@ -2,8 +2,8 @@
 
 
 # Backend
-# 1º npm init -y  inicia um novo projeto Node.js e cria o arquivo package.json
-
+# 1º npm init -y  
+inicia um novo projeto Node.js
 
 # 2º npm install express dotenv sequelize pg pg-hstore cors
 express: Framework para criar a API REST.
@@ -17,6 +17,7 @@ nodemon: será utilizar para recarregar o servidor automaticamente
 
 # Frontend
 # 1º npx create-react-app my-react-app
+inicia um novo projeto React.js
 
 # 2º npm install axios react-router-dom
 axios: Para fazer requisições HTTP para o backend.
