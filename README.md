@@ -1,17 +1,36 @@
 # Desafio_Fullstack_G4Flex
 
+# Projeto
+É aplicação fullstack que permita o cadastro e a listagem de tarefas. O
+desafio tem como foco avaliar habilidades de desenvolvimento frontend e backend,
+além de integração com um banco de dados.
+
+# Tecnologias Utilizadas
+Backend : Node.js  
+
+Frontend : React.js  
+
+Banco de Dados : Postgresql  
+
 
 # Banco de dados
 o projeto foi executado utilizando o Postgresql, logo para o bom funcionamento é necessário ter o Postgresql instalado (versão utilizada 16.6) e ter um Database criado ele pode ter qualquer nome contanto que seja expecificado no DB_NAME no arquivo .ENV 
 
 # .ENV Backend
-# Colocar a porta que irá ser utilizada na rota
-PORT= ******
-# Configurações do banco de dados (PostgreSQL)
-DB_HOST=#####            # Utilizar o seu host do banco de dados
-DB_PORT=####             # Utilizar a porta do banco de dados da sua máquina
-DB_USER=########         # Utilizar o seu usuário do banco de dados
-DB_PASSWORD=##########   # Utilizar sua senha do banco de dados
+Colocar a porta que irá ser utilizada na rota  
+
+PORT= ******  
+<br><br/>
+Configurações do banco de dados (PostgreSQL)  
+
+DB_HOST=#####            # Utilizar o seu host do banco de dados  
+
+DB_PORT=####             # Utilizar a porta do banco de dados da sua máquina  
+
+DB_USER=########         # Utilizar o seu usuário do banco de dados  
+
+DB_PASSWORD=##########   # Utilizar sua senha do banco de dados  
+
 DB_NAME=##########       # Utilizar o nome do seu Database
 
 # Para rodar o Backend
