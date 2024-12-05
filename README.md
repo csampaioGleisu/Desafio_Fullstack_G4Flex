@@ -22,3 +22,6 @@ inicia um novo projeto React.js
 # 2º npm install axios react-router-dom
 axios: Para fazer requisições HTTP para o backend.
 react-router-dom: Para gerenciar rotas na aplicação.
+
+# 3º npm install reactstrap bootstrap
+reactstrap : Para facilitar a criação do front

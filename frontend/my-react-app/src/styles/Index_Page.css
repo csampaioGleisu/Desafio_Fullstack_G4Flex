@@ -1,0 +1,52 @@
+/* Define estilos básicos e uma altura mínima para a página */
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima igual à altura da tela */
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para os botões */
+  .Button_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os botões quebrem linha em telas menores */
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-bottom: 20px; /* Espaçamento abaixo do container */
+  }
+
+  
+  /* Garante que o conteúdo ocupe o espaço restante sem sobrepor o footer */
+  .main > div:not(.Button_container):not(footer) {
+    flex: 1; /* Faz com que o conteúdo cresça para preencher a altura disponível */
+    overflow-y: auto; /* Adiciona barra de rolagem se necessário */
+  }
+  
+  .task_component_container {
+    max-height: 550px;
+  }
+
+  /* Tabela responsiva */
+  table {
+    width: 100%; /* Ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove o espaçamento entre bordas */
+    margin: 10px 0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Adiciona bordas às células */
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilos para telas pequenas */
+    .Button_container {
+      flex-direction: column; /* Empilha os botões verticalmente */
+    }
+  
+    table {
+      font-size: 0.9em; /* Reduz o tamanho da fonte da tabela */
+    }
+  }
+  
