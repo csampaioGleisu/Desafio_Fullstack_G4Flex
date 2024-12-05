@@ -15,8 +15,8 @@ sequelize.sync()
   .then(() => console.log('Banco de dados conectado!'))
   .catch((err) => console.error('Erro ao conectar ao banco:', err));
 
-// Rotas principais
-app.use('/', tarefaRoutes); // Adiciona as rotas de tarefas
+// Rotas principais de tarefas
+app.use('/', tarefaRoutes);
 
 // Rota padrão para verificar o status do servidor
 app.get('/', (req, res) => {
